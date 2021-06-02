@@ -5,6 +5,7 @@ import morgan from "morgan";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
 import { log } from "./modules/logger";
+import "dotenv/config";
 
 const app: express.Application = express();
 
