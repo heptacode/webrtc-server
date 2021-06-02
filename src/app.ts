@@ -46,7 +46,7 @@ io.on("connection", (socket: Socket) => {
   });
 });
 
-httpServer.listen(3000, () => {
+httpServer.listen(process.env.HTTP_PORT || 3000, () => {
   log.i(`Listening on ${process.env.HTTP_HOST || "localhost"}:${process.env.HTTP_PORT || 3000}`);
 });
 
