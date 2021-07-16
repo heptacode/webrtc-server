@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "sunrinhackathon-live-server",
+      name: "webrtc-server",
       script: "dist/app.js",
       autorestart: true,
       max_memory_restart: "2G",
